@@ -1,6 +1,6 @@
 # Utility script to track athena prj files with git #
 
-This is a simple script to initialize a customized git repository which will properly diff `.prj` files for the [`athena`](http://cars9.uchicago.edu/~ravel/software/doc/Athena/html/) XAS data processing program.
+This is a simple script to initialize a [customized git repository](http://git-scm.com/book/en/Customizing-Git-Git-Attributes) which will properly diff `.prj` files for the [`athena`](http://cars9.uchicago.edu/~ravel/software/doc/Athena/html/) XAS data processing program.
 
 To use, simply run `bash init.sh` in the directory you want the repository to be in.
 
