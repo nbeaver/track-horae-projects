@@ -2,7 +2,7 @@
 
 This is a simple script to initialize a [customized `git` repository](http://git-scm.com/book/en/Customizing-Git-Git-Attributes) which will properly diff `.prj` files for the [`athena`](http://cars9.uchicago.edu/~ravel/software/doc/Athena/html/) XAS data processing program.
 
-To use, simply run `bash init.sh` in the directory you want the repository to be in.
+To use, simply run `bash init.sh` in the directory you want the repository to be in, then optionally delete the shell script. It is also safe to run the script in an existing repository, since it does not change the actual commits, but only makes the diffs cleaner.
 
 You can also make a shell alias like this and add it to your `bashrc` or equivalent:
 
@@ -16,5 +16,3 @@ Note that this will not reduce the amount of disk space required, since `git` st
 
 1. Investigate the possibility of ignoring the `.prj` files but tracking the text for to make the repositories smaller. The downside is that it would be impossible to recreate the actual project file without gzipping the text again.
 2. See if diffing `.apj` files could be similarly arranged.
-
-
