@@ -6,7 +6,7 @@ To use, simply run `bash init.sh` in the directory you want the repository to be
 
 You can also make a shell alias like this and add it to your `bashrc` or equivalent:
 
-    alias 'git-init-prj'='git init; git config diff.zip.textconv zcat; echo "*.prj diff=zip" > .gitattributes'
+    alias 'git-init-prj'='git init; git config diff.zip.textconv zcat; echo "*.prj diff=zip" >> .gitattributes'
 
 The `.apj` files for the `artemis` program are more complicated and a simple `zcat` will not suffice, but this shouldn't be too difficult and is on the to-do list.
 
